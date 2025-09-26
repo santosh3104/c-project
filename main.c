@@ -3,4 +3,5 @@ int main(){
 	biggest();
 	factorial();
 	palindrome();
+	Addition();
 }
