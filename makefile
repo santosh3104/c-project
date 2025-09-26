@@ -8,3 +8,5 @@ fact.o:fact.c
 	gcc -c fact.c
 big.o:big.c
 	gcc -c big.c
+add.o:add.c
+	gcc -c add.c
