@@ -1,5 +1,5 @@
-ABC.exe:main.o pal.o fact.o big.o
-	gcc -o ABC.exe main.o pal.o fact.o big.o
+ABC.exe:main.o pal.o fact.o big.o add.o
+	gcc -o ABC.exe main.o pal.o fact.o big.o add.o
 main.o:main.c
 	gcc -c main.c
 pal.o:pal.c
