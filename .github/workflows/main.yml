@@ -22,7 +22,7 @@ run-pytest:
         python-version: 3.9
     - name: install dependencies
       run:
-        python -m oio install --uograde pip
+        python -m pip install --upgrade pip
         pip install pytest
     - name: Run testcases
       run: pytest
