@@ -24,5 +24,6 @@ run-pytest:
       run:
         python -m oio install --uograde pip
         pip install pytest
-    - name: Run test cases
+    - name: Run testcases
+      run: pytest
       
